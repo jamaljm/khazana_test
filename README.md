@@ -1,4 +1,5 @@
-# Financial Management API
+# Financial Management API 
+
 
 A Flask-based API for managing user financial goals, portfolios, and assets. This API allows users to create financial goals, manage portfolios of assets (stocks, crypto, etc.), and track asset price history over time.
 
