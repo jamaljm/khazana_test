@@ -71,6 +71,7 @@ jobs:
       - name: Run database migrations
         run: |
           source venv/bin/activate
+          export FLASK_APP=run.py
           flask db init
           flask db migrate -m "new2"
           flask db upgrade
